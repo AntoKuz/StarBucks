@@ -1,0 +1,30 @@
+%detailed {
+    font-weight: bold;
+    background: linear-gradient(263.46deg, #237249 3.14%, #35C66B 87.2%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+%title {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+    color: #fff;
+}
+
+%text {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 163%;
+    @extend %text-color;
+}
+
+%text-color {
+    color: #D9D9D9;
+}
+
+%btn--active {
+    background: linear-gradient(265.23deg, #237249 6.79%, #35C66B 97.2%);
+    border-radius: 82.834px;
+}
